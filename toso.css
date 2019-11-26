@@ -1,0 +1,55 @@
+/* .App{
+    background-color: rgb(4, 15, 53);
+    height: 350px;
+    width: 100%;
+    color: red;
+} */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: rgb(13, 49, 180);
+  }
+
+  
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+  .row.content {
+      position: relative;
+      height: 100%;
+      overflow-y: scroll;
+    }
+  
+  /* Set gray background color and 100% height */
+  .sidenav1 {
+    position: fixed;
+    left: 0;
+    width: inherit;
+    padding-top: 20px;
+    background-color: rgb(216, 206, 208);
+    height: auto;
+  }
+  @media screen and (max-width: 767px) {
+    .sidenav1 {
+      height: 100%;
+      padding: 15px;
+      z-index: 10;
+    }
+    .row.content {height:auto;} 
+  }
+  
+  .sidenav2 {
+    position: relative;
+    right: 0;
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+  }
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+a:link{
+  text-decoration: none;
+  text-decoration-color: rgb(192, 231, 204);
+  display: block;
+  text-align: center justify ;
+
+
+}
